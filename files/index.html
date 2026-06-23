@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cooimprosam — Cafés Especiales de Altura, Samaniego</title>
+  <meta name="description" content="28 familias campesinas de Samaniego, Nariño, unidas por el origen, la calidad y el comercio justo. Cafés especiales de altura."/>
+  <meta property="og:title" content="Cooimprosam — Cafés Especiales de Altura"/>
+  <meta property="og:description" content="28 familias campesinas. Un café de origen. Samaniego, Nariño, Colombia."/>
+  <meta property="og:type" content="website"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Navegación principal">
+    <div class="nav__container">
+      <a class="nav__logo" href="#inicio" aria-label="Cooimprosam inicio">
+        <span class="nav__logo-sigla">C</span>
+        <span class="nav__logo-nombre">Cooimprosam</span>
+      </a>
+      <ul class="nav__enlaces" id="navEnlaces" role="list">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#cafe">El Café</a></li>
+        <li><a href="#familias">Familias</a></li>
+        <li><a href="#comercio">Comercio Justo</a></li>
+        <li><a href="#contacto" class="nav__contacto">Contacto</a></li>
+      </ul>
+      <button class="nav__menu" id="navMenu" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero__contenido">
+      <p class="eyebrow">SAMANIEGO &middot; NARIÑO &middot; COLOMBIA</p>
+      <h1 class="hero__titulo">
+        Altura<br/>
+        <em>que sabe</em><br/>
+        distinto
+      </h1>
+      <p class="hero__sub">
+        28 familias campesinas unidas por el origen, la calidad<br/>
+        y el comercio justo. Cafés especiales cultivados entre las nubes de Nariño.
+      </p>
+      <a href="#nosotros" class="btn btn--claro">Conocer el origen</a>
+    </div>
+
+    <!-- Silueta de montañas en SVG puro -->
+    <div class="hero__montaña" aria-hidden="true">
+      <svg viewBox="0 0 1440 340" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <!-- Capa trasera: montañas lejanas -->
+        <path class="capa-1" d="M0,340 L0,210 L160,95 L320,175 L500,55 L680,145 L840,65 L1020,125 L1200,75 L1360,100 L1440,85 L1440,340 Z"/>
+        <!-- Capa media -->
+        <path class="capa-2" d="M0,340 L0,250 L120,145 L280,215 L460,105 L640,190 L820,110 L1000,170 L1180,115 L1340,155 L1440,130 L1440,340 Z"/>
+        <!-- Capa frontal: montañas cercanas -->
+        <path class="capa-3" d="M0,340 L0,275 L90,210 L210,260 L370,165 L540,245 L700,155 L860,225 L1020,180 L1180,245 L1340,195 L1440,215 L1440,340 Z"/>
+        <!-- Niebla — capa 1 -->
+        <ellipse class="niebla niebla-1" cx="720" cy="230" rx="780" ry="75"/>
+        <!-- Niebla — capa 2 -->
+        <ellipse class="niebla niebla-2" cx="280" cy="260" rx="420" ry="55"/>
+        <!-- Niebla — capa 3 -->
+        <ellipse class="niebla niebla-3" cx="1120" cy="240" rx="380" ry="50"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== NOSOTROS ===== -->
+  <section class="seccion nosotros" id="nosotros">
+    <div class="contenedor">
+      <div class="nosotros__grilla">
+        <div class="nosotros__cabeza">
+          <p class="eyebrow eyebrow--verde">Nuestra historia</p>
+          <h2 class="titulo-seccion">Una cooperativa<br/><em>nacida de la tierra</em></h2>
+        </div>
+        <div class="nosotros__cuerpo reveal">
+          <p>Cooimprosam nació del deseo común de cultivar café con propósito. En las laderas de Samaniego, entre los 1.600 y 2.100 metros sobre el nivel del mar, la niebla, la lluvia constante y el suelo de origen volcánico crean condiciones únicas que se traducen en tazas de sabor extraordinario.</p>
+          <p>Cada familia aporta su conocimiento ancestral, su parcela y su trabajo. Juntos logramos lo que solos no podríamos: llevar cafés especiales de alta calidad al mundo, con el precio y el reconocimiento que merecen.</p>
+        </div>
+      </div>
+
+      <!-- Estadísticas -->
+      <div class="estadisticas">
+        <div class="estadistica reveal">
+          <span class="estadistica__numero">28</span>
+          <span class="estadistica__etiqueta">familias campesinas</span>
+        </div>
+        <div class="estadistica reveal">
+          <span class="estadistica__numero">1.800<sup>+</sup></span>
+          <span class="estadistica__etiqueta">metros sobre el mar</span>
+        </div>
+        <div class="estadistica reveal">
+          <span class="estadistica__numero">100<sup>%</sup></span>
+          <span class="estadistica__etiqueta">comercio justo</span>
+        </div>
+        <div class="estadistica reveal">
+          <span class="estadistica__numero" style="font-size:2.5rem;">&#9825;</span>
+          <span class="estadistica__etiqueta">Samaniego, Nariño</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HISTORIA ===== -->
+  <section class="seccion historia" id="historia">
+    <div class="contenedor">
+      <div class="seccion__cabeza">
+        <p class="eyebrow eyebrow--verde">Trayectoria</p>
+        <h2 class="titulo-seccion">Más de una década<br/><em>de trabajo y resiliencia</em></h2>
+      </div>
+      <div class="linea-tiempo">
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">Los orígenes</span>
+            <span class="linea__icono" aria-hidden="true">🌿</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Tomate de mesa bajo invernadero en Samaniego</h3>
+            <ul>
+              <li>Inicio de la producción de tomate de mesa bajo invernadero</li>
+              <li>Promoción de la siembra entre familias campesinas de la región</li>
+              <li>Comercialización en la plaza de mercado local</li>
+              <li>El tomate se consolida como alternativa económica para la región</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2010</span>
+            <span class="linea__icono" aria-hidden="true">🤝</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Comercialización asociativa sin formalización legal</h3>
+            <ul>
+              <li>Los productores comienzan a vender de manera conjunta</li>
+              <li>Nace la idea de organizarse para mejorar precios y acceso a mercados</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2011 – 2012</span>
+            <span class="linea__icono" aria-hidden="true">📋</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Legalización de COOINPROSAM</h3>
+            <ul>
+              <li>Constitución formal de la cooperativa</li>
+              <li>Incremento de la producción de tomate a gran escala</li>
+              <li>Fortalecimiento de procesos organizativos y comerciales</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2013 – 2016</span>
+            <span class="linea__icono" aria-hidden="true">🚜</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Diversificación productiva</h3>
+            <ul>
+              <li>Incorporación de cultivos de papa, hortalizas y tomate de árbol</li>
+              <li>Búsqueda de nuevas oportunidades de mercado</li>
+              <li>Reducción de la dependencia exclusiva del tomate</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2017 – 2020</span>
+            <span class="linea__icono" aria-hidden="true">🌎</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Apuesta por frutas con potencial de exportación</h3>
+            <ul>
+              <li>Producción importante de gulupa, granadilla y tomate de árbol</li>
+              <li>Apertura a mercados especializados nacionales e internacionales</li>
+              <li>Consolidación de capacidades técnicas para nuevos cultivos</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item linea__item--crisis reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2020</span>
+            <span class="linea__icono" aria-hidden="true">🦠</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Impacto de la pandemia</h3>
+            <ul>
+              <li>Disminuyen las oportunidades de comercialización</li>
+              <li>Se afectan las cadenas de suministro y los mercados agrícolas</li>
+              <li>Se reducen significativamente los cultivos destinados a exportación</li>
+              <li>Los productores buscan nuevas alternativas productivas</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2021 – 2023</span>
+            <span class="linea__icono" aria-hidden="true">📈</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Producción de uchuva para exportación</h3>
+            <ul>
+              <li>La uchuva se convierte en la principal apuesta exportadora</li>
+              <li>Se retoman procesos orientados a mercados especializados</li>
+              <li>Se fortalecen vínculos comerciales para exportación directa</li>
+              <li>En 2023, la enfermedad de punta morada impacta gravemente los cultivos</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item linea__item--cafe reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2024</span>
+            <span class="linea__icono" aria-hidden="true">☕</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Transición hacia el café especial de altura</h3>
+            <ul>
+              <li>Caída de los precios de otros productos agrícolas</li>
+              <li>Los asociados deciden apostar por los cafés especiales de altura</li>
+              <li>Inicio de una estrategia enfocada en calidad, trazabilidad y mercados diferenciados</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item linea__item--cafe reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2025</span>
+            <span class="linea__icono" aria-hidden="true">🌍</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Internacionalización: Berlín, Alemania</h3>
+            <ul>
+              <li>Participación en feria internacional en Berlín, Alemania</li>
+              <li>Establecimiento de contactos comerciales internacionales</li>
+              <li>Exploración de oportunidades para exportación directa de café</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item linea__item--cafe reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2026</span>
+            <span class="linea__icono" aria-hidden="true">🤝</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Construcción de alianzas comerciales</h3>
+            <ul>
+              <li>Consolidación de alianzas nacionales para exportar café especial hacia Estados Unidos y Europa</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item linea__item--vision reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año linea__año--vision">Visión 2030</span>
+            <span class="linea__icono" aria-hidden="true">☕</span>
+          </div>
+          <div class="linea__tarjeta linea__tarjeta--vision">
+            <h3>COOINPROSAM como referente de café especial</h3>
+            <ul>
+              <li>Producción de café orgánico certificado</li>
+              <li>Exportación directa a mercados de especialidad</li>
+              <li>Comercialización de microlotes de alta calidad</li>
+              <li>Generación de mayores ingresos y oportunidades para las familias campesinas de Samaniego</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EL CAFÉ ===== -->
+  <section class="seccion cafe" id="cafe">
+    <div class="contenedor">
+      <div class="seccion__cabeza">
+        <p class="eyebrow eyebrow--oro">El producto</p>
+        <h2 class="titulo-seccion titulo-seccion--claro">Café que cuenta<br/><em>su origen en cada sorbo</em></h2>
+      </div>
+      <div class="cafe__grilla">
+        <article class="cafe__tarjeta reveal">
+          <div class="cafe__icono">&#9968;</div>
+          <h3>Altitud</h3>
+          <p>1.600&ndash;2.100 msnm. La altura es nuestra mayor ventaja: maduración lenta, mayor densidad, acidez viva y complejidad aromática que solo da la montaña.</p>
+        </article>
+        <article class="cafe__tarjeta reveal">
+          <div class="cafe__icono">&#127807;</div>
+          <h3>Variedades</h3>
+          <p>Caturra, Castillo, Colombia y selecciones locales adaptadas a décadas de cultivo en las montañas de Nariño.</p>
+        </article>
+        <article class="cafe__tarjeta reveal">
+          <div class="cafe__icono">&#128167;</div>
+          <h3>Procesos</h3>
+          <p>Lavado tradicional, honey y natural. Cada proceso revela una faceta distinta del terroir de Samaniego.</p>
+        </article>
+        <article class="cafe__tarjeta reveal">
+          <div class="cafe__icono">&#9749;</div>
+          <h3>Notas de taza</h3>
+          <p>Cítricos brillantes, florales delicados, caramelo suave y un retrogusto largo que recuerda a la panela de Nariño.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LAS 28 FAMILIAS ===== -->
+  <section class="seccion familias" id="familias">
+    <div class="contenedor">
+      <div class="familias__interior">
+        <div class="familias__numero-col" aria-hidden="true">
+          <span class="familias__numero">28</span>
+        </div>
+        <div class="familias__texto reveal">
+          <p class="eyebrow eyebrow--verde">El corazón de Cooimprosam</p>
+          <h2 class="titulo-seccion">Las <em>familias</em><br/>que hacen posible<br/>cada taza</h2>
+          <p>Detrás de cada bolsa de Cooimprosam hay un nombre, una historia y un cafetal. Nuestras 28 familias campesinas son el alma de la cooperativa: ellas siembran, cuidan, cosechan y seleccionan cerezas de café a mano, con el rigor que exige un café de especialidad y el amor que da la tierra propia.</p>
+          <p>Ser parte de Cooimprosam no es solo producir café. Es tener acceso a capacitación técnica, a mercados internacionales y a una comunidad que camina junta hacia una vida más digna.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMERCIO JUSTO ===== -->
+  <section class="seccion comercio" id="comercio">
+    <div class="contenedor">
+      <div class="seccion__cabeza">
+        <p class="eyebrow eyebrow--verde">Nuestros valores</p>
+        <h2 class="titulo-seccion">Comercio justo no es un sello<br/><em>— es una forma de vivir</em></h2>
+      </div>
+      <div class="comercio__grilla">
+        <div class="comercio__item reveal">
+          <span class="comercio__raya">&mdash;</span>
+          <div>
+            <h3>Precio justo para el productor</h3>
+            <p>El agricultor recibe una compensación que reconoce su trabajo, su conocimiento y el costo real de producir café de calidad.</p>
+          </div>
+        </div>
+        <div class="comercio__item reveal">
+          <span class="comercio__raya">&mdash;</span>
+          <div>
+            <h3>Trazabilidad completa</h3>
+            <p>Cada lote de café es rastreable hasta la familia que lo produjo. El origen no es marketing — es garantía y transparencia.</p>
+          </div>
+        </div>
+        <div class="comercio__item reveal">
+          <span class="comercio__raya">&mdash;</span>
+          <div>
+            <h3>Prácticas sostenibles</h3>
+            <p>Cultivamos respetando los ecosistemas de montaña. Sombra, biodiversidad y suelo vivo son parte de nuestra propuesta de valor.</p>
+          </div>
+        </div>
+        <div class="comercio__item reveal">
+          <span class="comercio__raya">&mdash;</span>
+          <div>
+            <h3>Comunidad sobre competencia</h3>
+            <p>Las 28 familias colaboran, no compiten. Compartimos conocimientos, recursos y oportunidades para crecer juntos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERÍA ===== -->
+  <section class="seccion galeria" id="galeria">
+    <div class="contenedor">
+      <div class="seccion__cabeza">
+        <p class="eyebrow eyebrow--verde">Nuestra gente</p>
+        <h2 class="titulo-seccion">El campo tiene<br/><em>rostro y nombre</em></h2>
+      </div>
+      <div class="galeria__grilla">
+        <a class="galeria__foto-grande reveal"
+           href="https://photos.app.goo.gl/U673oSug51WyYbV66"
+           target="_blank" rel="noopener"
+           aria-label="Ver galería completa de Cooimprosam en Google Photos">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AP1GczN3_PozcMgSLpehqt9l8ff1tdXlCzqvuximtPynm4t2PHqzoH8kKoo0LIjVLibMn_ZU074DUKzObbNExazoR1L8ZPGiOHaNhUfyGPLfxATYT-wzOWns=w1200-h800"
+            alt="Familias productoras de café especial de Cooimprosam en Samaniego, Nariño"
+            loading="lazy"
+          />
+          <div class="galeria__hover">
+            <span>Ver galería completa ↗</span>
+          </div>
+        </a>
+        <div class="galeria__textos reveal">
+          <p>28 familias. Años de esfuerzo, aprendizaje y resiliencia en las montañas de Samaniego. Cada imagen cuenta una historia de trabajo digno y café de altura.</p>
+          <p>Desde los primeros invernaderos de tomate hasta las ferias internacionales de café — nuestra historia vive en las personas que la construyeron.</p>
+          <a href="https://photos.app.goo.gl/U673oSug51WyYbV66"
+             target="_blank" rel="noopener"
+             class="btn btn--oscuro">Ver galería completa ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section class="seccion contacto" id="contacto">
+    <div class="contenedor">
+      <div class="contacto__interior">
+        <div class="contacto__info">
+          <p class="eyebrow eyebrow--oro">Hablemos</p>
+          <h2 class="titulo-seccion titulo-seccion--claro">¿Interesado en<br/><em>nuestro café?</em></h2>
+          <p class="contacto__desc">Trabajamos con tostadores, importadores, cafeterías de especialidad y consumidores finales que valoran el origen y la calidad. Cuéntanos qué buscas.</p>
+          <div class="contacto__canales">
+            <a href="mailto:cooimprosam@gmail.com" class="contacto__canal">
+              <span>&#9993;</span> cooimprosam@gmail.com
+            </a>
+            <a href="https://wa.me/573000000000" class="contacto__canal" target="_blank" rel="noopener">
+              <span>&#128172;</span> WhatsApp
+            </a>
+            <p class="contacto__lugar">
+              <span>&#128205;</span> Samaniego, Nariño, Colombia
+            </p>
+          </div>
+        </div>
+
+        <!-- Formulario — para recibir correos usa Formspree.io (ver README) -->
+        <form class="contacto__form" id="contactoForm" action="https://formspree.io/f/REEMPLAZAR_ID" method="POST" novalidate>
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required/>
+          </div>
+          <div class="campo">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tu@correo.com" required/>
+          </div>
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos qué tipo de café buscas, en qué cantidades..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--claro btn--completo" id="btnEnviar">Enviar mensaje</button>
+          <p class="form__confirmacion" id="formConfirmacion" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="pie__interior">
+        <div class="pie__marca">
+          <p class="pie__logo">Cooimprosam</p>
+          <p class="pie__eslogan">Cafés Especiales de Altura<br/>Samaniego, Nariño</p>
+        </div>
+        <nav class="pie__enlaces" aria-label="Pie de página">
+          <a href="#nosotros">Nosotros</a>
+          <a href="#historia">Historia</a>
+          <a href="#cafe">El Café</a>
+          <a href="#galeria">Galería</a>
+          <a href="#comercio">Comercio Justo</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <p class="pie__derechos">&copy; 2026 Cooimprosam &middot; 28 familias &middot; 1 origen</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
