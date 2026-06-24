@@ -90,7 +90,7 @@ btnEnviar.disabled = true;
         throw new Error('Error al enviar');
       }
     } catch {
-      confirmacion.textContent = 'Hubo un error. Escríbenos directamente a cooimprosam@gmail.com';
+      confirmacion.textContent = 'Hubo un error. Escríbenos directamente a samaniegocooper@gmail.com o al +57 311 6073035';
     } finally {
       btnEnviar.textContent = 'Enviar mensaje';
       btnEnviar.disabled    = false;
