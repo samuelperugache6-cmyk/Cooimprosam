@@ -647,3 +647,29 @@ body {
   .reveal { transition: none; }
   html    { scroll-behavior: auto; }
 }
+/* MENSAJE INSTITUCIONAL */
+
+.mensaje{
+  background:#406f52;
+}
+
+.mensaje__contenido{
+  text-align:center;
+  max-width:900px;
+  margin:auto;
+}
+
+.mensaje .titulo-seccion{
+  color:#fff;
+}
+
+.mensaje .titulo-seccion em{
+  color:#d6b15f;
+}
+
+.mensaje__texto{
+  margin-top:1.5rem;
+  color:#eef3ed;
+  line-height:1.9;
+  font-size:1.1rem;
+}
