@@ -90,7 +90,7 @@ if (form) {
         throw new Error('Error al enviar');
       }
     } catch {
-      confirmacion.textContent = 'Hubo un error. Escríbenos directamente a cooimprosam@gmail.com';
+      confirmacion.textContent = 'Hubo un error. Escríbenos directamente a samaniegocooper@gmail.com';
     } finally {
       btnEnviar.textContent = 'Enviar mensaje';
       btnEnviar.disabled    = false;
