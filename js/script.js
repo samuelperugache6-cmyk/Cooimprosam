@@ -64,11 +64,11 @@ if (form) {
   form.addEventListener('submit', async (e) => {
     // Si el ID de Formspree no ha sido configurado, mostrar instrucción
     const accion = form.getAttribute('action');
-    if (accion.includes('REEMPLAZAR_ID')) {
-      e.preventDefault();
-      confirmacion.textContent = '⚙️ Configura Formspree en el README para recibir mensajes.';
-      return;
-    }
+
+// Envío real con Formspree
+e.preventDefault();
+btnEnviar.textContent = 'Enviando…';
+btnEnviar.disabled = true;
 
     // Envío real con Formspree
     e.preventDefault();
