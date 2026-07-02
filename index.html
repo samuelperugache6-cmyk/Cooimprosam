@@ -19,11 +19,12 @@
   <nav class="nav" id="nav" role="navigation" aria-label="Navegación principal">
     <div class="nav__container">
       <a class="nav__logo" href="#inicio" aria-label="Cooimprosam inicio">
-        <span class="nav__logo-sigla">C</span>
+        <img src="img/Logo.jpeg" alt="Logo Cooimprosam" class="nav__logo-img"/>
         <span class="nav__logo-nombre">Cooimprosam</span>
       </a>
       <ul class="nav__enlaces" id="navEnlaces" role="list">
         <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#historia">Historia</a></li>
         <li><a href="#cafe">El Café</a></li>
         <li><a href="#familias">Familias</a></li>
         <li><a href="#comercio">Comercio Justo</a></li>
@@ -37,36 +38,32 @@
 
   <!-- ===== HERO ===== -->
   <section class="hero" id="inicio">
-  <div class="hero__contenido">
-    <p class="eyebrow">SAMANIEGO &middot; NARIÑO &middot; COLOMBIA</p>
+    <div class="hero__contenido">
+      <p class="eyebrow">SAMANIEGO &middot; NARIÑO &middot; COLOMBIA</p>
+      <h1 class="hero__titulo">
+        Más de 20 años<br/>
+        <em>cultivando oportunidades</em><br/>
+        en Samaniego
+      </h1>
+      <p class="hero__sub">
+        28 familias campesinas unidas para producir cafés especiales de altura
+        y llevar el nombre de Samaniego, Nariño, a los mercados nacionales e internacionales.
+      </p>
+      <a href="#nosotros" class="btn btn--claro">Conocer nuestra historia</a>
+    </div>
+    <!-- Silueta de montañas SVG sobre la foto -->
+    <div class="hero__montaña" aria-hidden="true">
+      <svg viewBox="0 0 1440 340" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path class="capa-1" d="M0,340 L0,210 L160,95 L320,175 L500,55 L680,145 L840,65 L1020,125 L1200,75 L1360,100 L1440,85 L1440,340 Z"/>
+        <path class="capa-2" d="M0,340 L0,250 L120,145 L280,215 L460,105 L640,190 L820,110 L1000,170 L1180,115 L1340,155 L1440,130 L1440,340 Z"/>
+        <path class="capa-3" d="M0,340 L0,275 L90,210 L210,260 L370,165 L540,245 L700,155 L860,225 L1020,180 L1180,245 L1340,195 L1440,215 L1440,340 Z"/>
+        <ellipse class="niebla niebla-1" cx="720" cy="230" rx="780" ry="75"/>
+        <ellipse class="niebla niebla-2" cx="280" cy="260" rx="420" ry="55"/>
+        <ellipse class="niebla niebla-3" cx="1120" cy="240" rx="380" ry="50"/>
+      </svg>
+    </div>
+  </section>
 
-    <h1 class="hero__titulo">
-      Más de 20 años<br/>
-      <em>cultivando oportunidades</em><br/>
-      en Samaniego
-    </h1>
-
-    <p class="hero__sub">
-      28 familias campesinas unidas para producir cafés especiales de altura y llevar el nombre de Samaniego, Nariño, a los mercados nacionales e internacionales.
-    </p>
-
-    <a href="#nosotros" class="btn btn--claro">
-      Conocer nuestra historia
-    </a>
-  </div>
-
-  <!-- Silueta de montañas en SVG puro -->
-  <div class="hero__montaña" aria-hidden="true">
-    <svg viewBox="0 0 1440 340" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-      <path class="capa-1" d="M0,340 L0,210 L160,95 L320,175 L500,55 L680,145 L840,65 L1020,125 L1200,75 L1360,100 L1440,85 L1440,340 Z"/>
-      <path class="capa-2" d="M0,340 L0,250 L120,145 L280,215 L460,105 L640,190 L820,110 L1000,170 L1180,115 L1340,155 L1440,130 L1440,340 Z"/>
-      <path class="capa-3" d="M0,340 L0,275 L90,210 L210,260 L370,165 L540,245 L700,155 L860,225 L1020,180 L1180,245 L1340,195 L1440,215 L1440,340 Z"/>
-      <ellipse class="niebla niebla-1" cx="720" cy="230" rx="780" ry="75"/>
-      <ellipse class="niebla niebla-2" cx="280" cy="260" rx="420" ry="55"/>
-      <ellipse class="niebla niebla-3" cx="1120" cy="240" rx="380" ry="50"/>
-    </svg>
-  </div>
-</section>
   <!-- ===== NOSOTROS ===== -->
   <section class="seccion nosotros" id="nosotros">
     <div class="contenedor">
@@ -76,18 +73,10 @@
           <h2 class="titulo-seccion">Una cooperativa<br/><em>nacida de la tierra</em></h2>
         </div>
         <div class="nosotros__cuerpo reveal">
-          <p>
-COOINPROSAM nació en Samaniego, Nariño, entre los años 2005 y 2006, cuando la sobreproducción de tomate de mesa generó dificultades para comercializar las cosechas. Ante esta situación, un grupo de productores decidió organizarse para negociar conjuntamente, acceder a mejores mercados y fortalecer la economía de las familias campesinas.
-</p>
-
-<p>
-Con el paso de los años la cooperativa diversificó su producción incorporando cultivos como papa, tomate de árbol, hortalizas, granadilla, gulupa, uchuva y lulo. Hoy, después de superar desafíos como la pandemia, la enfermedad de punta morada y las crisis de precios agrícolas, COOINPROSAM continúa construyendo oportunidades para las familias rurales de Samaniego.
-</p>
-
+          <p>COOINPROSAM nació en Samaniego, Nariño, entre los años 2005 y 2006, cuando la sobreproducción de tomate de mesa generó dificultades para comercializar las cosechas. Ante esta situación, un grupo de productores decidió organizarse para negociar conjuntamente, acceder a mejores mercados y fortalecer la economía de las familias campesinas.</p>
+          <p>Con el paso de los años la cooperativa diversificó su producción incorporando cultivos como papa, tomate de árbol, hortalizas, granadilla, gulupa, uchuva y lulo. Hoy, después de superar desafíos como la pandemia, la enfermedad de punta morada y las crisis de precios agrícolas, COOINPROSAM continúa construyendo oportunidades para las familias rurales de Samaniego.</p>
         </div>
       </div>
-
-      <!-- Estadísticas -->
       <div class="estadisticas">
         <div class="estadistica reveal">
           <span class="estadistica__numero">28</span>
@@ -108,71 +97,236 @@ Con el paso de los años la cooperativa diversificó su producción incorporando
       </div>
     </div>
   </section>
-<!-- ===== MENSAJE INSTITUCIONAL ===== -->
-<section class="seccion mensaje">
-  <div class="contenedor">
 
-    <div class="mensaje__contenido reveal">
-
-      <p class="eyebrow eyebrow--verde">
-        Nuestro compromiso
-      </p>
-
-      <h2 class="titulo-seccion">
-  Más de 20 años
-  <em>transformando dificultades en oportunidades</em>
-</h2>
-
-
-      <p class="mensaje__texto">
-  Lo que comenzó como una respuesta a las dificultades de comercialización del tomate se convirtió en una cooperativa campesina que hoy impulsa la producción de cafés especiales de altura. Nuestra historia demuestra que la organización, el trabajo colectivo y la innovación permiten construir oportunidades para las familias rurales de Samaniego.
-</p>
-
+  <!-- ===== MENSAJE INSTITUCIONAL ===== -->
+  <section class="seccion mensaje" id="mensaje">
+    <div class="contenedor">
+      <div class="mensaje__grilla">
+        <div class="mensaje__foto reveal">
+          <img
+            src="img/Mas de 20 años transformando dificultadeqs en oportunidades.jpeg"
+            alt="Más de 20 años transformando dificultades en oportunidades — Cooimprosam"
+          />
+        </div>
+        <div class="mensaje__contenido reveal">
+          <p class="eyebrow eyebrow--oro">Nuestro compromiso</p>
+          <h2 class="titulo-seccion titulo-seccion--claro">
+            Más de 20 años<br/><em>transformando dificultades<br/>en oportunidades</em>
+          </h2>
+          <p class="mensaje__texto">
+            Lo que comenzó como una respuesta a las dificultades de comercialización del tomate se convirtió en una cooperativa campesina que hoy impulsa la producción de cafés especiales de altura. Nuestra historia demuestra que la organización, el trabajo colectivo y la innovación permiten construir oportunidades para las familias rurales de Samaniego.
+          </p>
+        </div>
+      </div>
     </div>
+  </section>
 
-  </div>
-</section>
+  <!-- ===== HISTORIA — LÍNEA DE TIEMPO ===== -->
+  <section class="seccion historia" id="historia">
+    <div class="contenedor">
+      <div class="seccion__cabeza">
+        <p class="eyebrow eyebrow--verde">Trayectoria</p>
+        <h2 class="titulo-seccion">Más de una década<br/><em>de trabajo y resiliencia</em></h2>
+      </div>
+      <div class="linea-tiempo">
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">Los orígenes</span>
+            <span class="linea__icono">🌿</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Tomate de mesa bajo invernadero en Samaniego</h3>
+            <ul>
+              <li>Inicio de la producción de tomate de mesa bajo invernadero</li>
+              <li>Promoción de la siembra entre familias campesinas de la región</li>
+              <li>Comercialización en la plaza de mercado local</li>
+              <li>El tomate se consolida como alternativa económica para la región</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2010</span>
+            <span class="linea__icono">🤝</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Comercialización asociativa sin formalización legal</h3>
+            <ul>
+              <li>Los productores comienzan a vender de manera conjunta</li>
+              <li>Nace la idea de organizarse para mejorar precios y acceso a mercados</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2011 – 2012</span>
+            <span class="linea__icono">📋</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Legalización de COOINPROSAM</h3>
+            <ul>
+              <li>Constitución formal de la cooperativa</li>
+              <li>Incremento de la producción de tomate a gran escala</li>
+              <li>Fortalecimiento de procesos organizativos y comerciales</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2013 – 2016</span>
+            <span class="linea__icono">🚜</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Diversificación productiva</h3>
+            <ul>
+              <li>Incorporación de cultivos de papa, hortalizas y tomate de árbol</li>
+              <li>Búsqueda de nuevas oportunidades de mercado</li>
+              <li>Reducción de la dependencia exclusiva del tomate</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2017 – 2020</span>
+            <span class="linea__icono">🌎</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Apuesta por frutas con potencial de exportación</h3>
+            <ul>
+              <li>Producción importante de gulupa, granadilla y tomate de árbol</li>
+              <li>Apertura a mercados especializados nacionales e internacionales</li>
+              <li>Consolidación de capacidades técnicas para nuevos cultivos</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item linea__item--crisis reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2020</span>
+            <span class="linea__icono">🦠</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Impacto de la pandemia</h3>
+            <ul>
+              <li>Disminuyen las oportunidades de comercialización</li>
+              <li>Se afectan las cadenas de suministro y los mercados agrícolas</li>
+              <li>Se reducen significativamente los cultivos destinados a exportación</li>
+              <li>Los productores buscan nuevas alternativas productivas</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2021 – 2023</span>
+            <span class="linea__icono">📈</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Producción de uchuva para exportación</h3>
+            <ul>
+              <li>La uchuva se convierte en la principal apuesta exportadora</li>
+              <li>Se retoman procesos orientados a mercados especializados</li>
+              <li>Se fortalecen vínculos comerciales para exportación directa</li>
+              <li>En 2023, la enfermedad de punta morada impacta gravemente los cultivos</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item linea__item--cafe reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2024</span>
+            <span class="linea__icono">☕</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Transición hacia el café especial de altura</h3>
+            <ul>
+              <li>Caída de los precios de otros productos agrícolas</li>
+              <li>Los asociados deciden apostar por los cafés especiales de altura</li>
+              <li>Inicio de una estrategia enfocada en calidad, trazabilidad y mercados diferenciados</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item linea__item--cafe reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2025</span>
+            <span class="linea__icono">🌍</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Internacionalización: Berlín, Alemania</h3>
+            <ul>
+              <li>Participación en feria internacional en Berlín, Alemania</li>
+              <li>Establecimiento de contactos comerciales internacionales</li>
+              <li>Exploración de oportunidades para exportación directa de café</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item linea__item--cafe reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año">2026</span>
+            <span class="linea__icono">🤝</span>
+          </div>
+          <div class="linea__tarjeta">
+            <h3>Construcción de alianzas comerciales</h3>
+            <ul>
+              <li>Consolidación de alianzas nacionales para exportar café especial hacia Estados Unidos y Europa</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="linea__item linea__item--vision reveal">
+          <div class="linea__encabezado">
+            <span class="linea__año linea__año--vision">Visión 2030</span>
+            <span class="linea__icono">☕</span>
+          </div>
+          <div class="linea__tarjeta linea__tarjeta--vision">
+            <h3>COOINPROSAM como referente de café especial</h3>
+            <ul>
+              <li>Producción de café orgánico certificado</li>
+              <li>Exportación directa a mercados de especialidad</li>
+              <li>Comercialización de microlotes de alta calidad</li>
+              <li>Generación de mayores ingresos y oportunidades para las familias campesinas de Samaniego</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- ===== EL CAFÉ ===== -->
   <section class="seccion cafe" id="cafe">
     <div class="contenedor">
       <div class="seccion__cabeza">
         <p class="eyebrow eyebrow--oro">El producto</p>
-        <h2 class="titulo-seccion titulo-seccion--claro">
-Cafés especiales de altura
-<br/>
-<em>cultivados en las montañas de Nariño</em>
-</h2>
+        <h2 class="titulo-seccion titulo-seccion--claro">Cafés especiales de altura<br/><em>cultivados en las montañas de Nariño</em></h2>
       </div>
       <div class="cafe__grilla">
         <article class="cafe__tarjeta reveal">
           <div class="cafe__icono">&#9968;</div>
           <h3>Altitud</h3>
-          <p>
-Nuestros cafés especiales son cultivados entre los 2.000 y 2.400 metros sobre el nivel del mar, una altura privilegiada que permite una maduración más lenta del grano y perfiles de taza con mayor complejidad, aroma y dulzura.
-</p>
-
+          <p>Nuestros cafés especiales son cultivados entre los 2.000 y 2.400 metros sobre el nivel del mar, una altura privilegiada que permite una maduración más lenta del grano y perfiles de taza con mayor complejidad, aroma y dulzura.</p>
         </article>
         <article class="cafe__tarjeta reveal">
           <div class="cafe__icono">&#127807;</div>
           <h3>Variedades</h3>
-          <p>
-Cultivamos variedades especiales como Geisha, Castillo y Caturra, seleccionadas por su calidad, adaptación al territorio y potencial para mercados de cafés diferenciados.
-</p>
-
+          <p>Cultivamos variedades especiales como Geisha, Castillo y Caturra, seleccionadas por su calidad, adaptación al territorio y potencial para mercados de cafés diferenciados.</p>
         </article>
         <article class="cafe__tarjeta reveal">
           <div class="cafe__icono">&#128167;</div>
           <h3>Calidad y trazabilidad</h3>
-<p>
-Trabajamos para ofrecer cafés especiales con identidad de origen, trazabilidad y altos estándares de calidad, conectando directamente a las familias productoras con nuevos mercados.
-</p>
+          <p>Trabajamos para ofrecer cafés especiales con identidad de origen, trazabilidad y altos estándares de calidad, conectando directamente a las familias productoras con nuevos mercados.</p>
         </article>
         <article class="cafe__tarjeta reveal">
           <div class="cafe__icono">&#9749;</div>
           <h3>Proyección internacional</h3>
-<p>
-Nuestros cafés especiales han comenzado a abrirse camino en mercados internacionales. En 2025, COOINPROSAM participó en una feria especializada en Berlín, Alemania, presentando cafés producidos por familias campesinas de Samaniego y estableciendo contactos comerciales para futuras exportaciones.
-</p>
+          <p>En 2025, COOINPROSAM participó en una feria especializada en Berlín, Alemania, presentando cafés producidos por familias campesinas de Samaniego y estableciendo contactos comerciales para futuras exportaciones.</p>
         </article>
       </div>
     </div>
@@ -188,14 +342,14 @@ Nuestros cafés especiales han comenzado a abrirse camino en mercados internacio
         <div class="familias__texto reveal">
           <p class="eyebrow eyebrow--verde">El corazón de Cooimprosam</p>
           <h2 class="titulo-seccion">Las <em>familias</em><br/>que hacen posible<br/>cada taza</h2>
-          <p>
-Actualmente COOINPROSAM cuenta con 28 asociados que trabajan en la producción agrícola y en el desarrollo de cafés especiales cultivados entre los 2.000 y 2.400 metros sobre el nivel del mar. Cada familia aporta experiencia, conocimiento y compromiso con la calidad.
-</p>
-
-<p>
-Nuestro objetivo es posicionar microlotes de café especial en mercados internacionales, obtener certificaciones y avanzar hacia la producción orgánica. Trabajamos para que el nombre de Samaniego y de las familias campesinas de Nariño sea reconocido por la calidad de sus productos en Colombia y el mundo.
-</p>
-
+          <p>Actualmente COOINPROSAM cuenta con 28 asociados que trabajan en la producción agrícola y en el desarrollo de cafés especiales cultivados entre los 2.000 y 2.400 metros sobre el nivel del mar. Cada familia aporta experiencia, conocimiento y compromiso con la calidad.</p>
+          <p>Nuestro objetivo es posicionar microlotes de café especial en mercados internacionales, obtener certificaciones y avanzar hacia la producción orgánica. Trabajamos para que el nombre de Samaniego y de las familias campesinas de Nariño sea reconocido en Colombia y el mundo.</p>
+        </div>
+        <div class="familias__foto reveal">
+          <img
+            src="img/Las familias que hacen posible cada taza.jpeg"
+            alt="Las familias de Cooimprosam que hacen posible cada taza de café especial"
+          />
         </div>
       </div>
     </div>
@@ -240,33 +394,26 @@ Nuestro objetivo es posicionar microlotes de café especial en mercados internac
       </div>
     </div>
   </section>
-<section class="seccion">
-  <div class="contenedor">
-    <div class="mensaje__contenido reveal">
 
-```
-  <p class="eyebrow eyebrow--oro">
-    Proyección internacional
-  </p>
-
-  <h2 class="titulo-seccion">
-    De Samaniego
-    <em>hasta Berlín</em>
-  </h2>
-
-  <p>
-    En 2025, COOINPROSAM participó en una feria especializada en Berlín, Alemania, donde presentó cafés especiales producidos por familias campesinas de Samaniego y estableció contactos comerciales con compradores internacionales.
-  </p>
-
-  <p>
-    Esta experiencia abrió nuevas oportunidades para posicionar nuestros cafés de especialidad en mercados internacionales y fortalecer el desarrollo económico de las familias productoras de la región.
-  </p>
-
-</div>
-```
-
-  </div>
-</section>
+  <!-- ===== DE SAMANIEGO HASTA BERLÍN ===== -->
+  <section class="seccion berlin" id="berlin">
+    <div class="contenedor">
+      <div class="berlin__grilla">
+        <div class="berlin__foto reveal">
+          <img
+            src="img/De Samaniego hasta Berlin.jpeg"
+            alt="COOINPROSAM en feria internacional de café en Berlín, Alemania 2025"
+          />
+        </div>
+        <div class="berlin__texto reveal">
+          <p class="eyebrow eyebrow--oro">Proyección internacional</p>
+          <h2 class="titulo-seccion titulo-seccion--claro">De Samaniego<br/><em>hasta Berlín</em></h2>
+          <p>En 2025, COOINPROSAM participó en una feria especializada en Berlín, Alemania, donde presentó cafés especiales producidos por familias campesinas de Samaniego y estableció contactos comerciales con compradores internacionales.</p>
+          <p>Esta experiencia abrió nuevas oportunidades para posicionar nuestros cafés de especialidad en mercados internacionales y fortalecer el desarrollo económico de las familias productoras de la región.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- ===== CONTACTO ===== -->
   <section class="seccion contacto" id="contacto">
@@ -288,8 +435,6 @@ Nuestro objetivo es posicionar microlotes de café especial en mercados internac
             </p>
           </div>
         </div>
-
-        <!-- Formulario — para recibir correos usa Formspree.io (ver README) -->
         <form class="contacto__form" id="contactoForm" action="https://formspree.io/f/xwvdvwzg" method="POST" novalidate>
           <div class="campo">
             <label for="nombre">Nombre</label>
@@ -320,12 +465,13 @@ Nuestro objetivo es posicionar microlotes de café especial en mercados internac
         </div>
         <nav class="pie__enlaces" aria-label="Pie de página">
           <a href="#nosotros">Nosotros</a>
+          <a href="#historia">Historia</a>
           <a href="#cafe">El Café</a>
           <a href="#familias">Familias</a>
           <a href="#comercio">Comercio Justo</a>
           <a href="#contacto">Contacto</a>
         </nav>
-        <p class="pie__derechos">&copy; 2025 Cooimprosam &middot; 28 familias &middot; 1 origen</p>
+        <p class="pie__derechos">&copy; 2026 Cooimprosam &middot; 28 familias &middot; 1 origen</p>
       </div>
     </div>
   </footer>
