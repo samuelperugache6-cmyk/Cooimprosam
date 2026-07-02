@@ -211,8 +211,20 @@ body {
 ================================================================ */
 
 .hero{
-    background: red !important;
+    position: relative;
     min-height: 100vh;
+
+    background:
+      linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+      url("../img/cafes especiales de la altura.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display:flex;
+    align-items:center;
+    overflow:hidden;
 }
 .hero__contenido {
   position: relative;
